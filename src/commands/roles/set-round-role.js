@@ -9,6 +9,7 @@ const getRoleRules = require('../../utils/getRoleRules');
 module.exports = {
     name: 'set-round-role',
     description: 'вот эту шнягу получат чемпионы',
+    prod: true,
     // deleted: true,
     options: [
         {

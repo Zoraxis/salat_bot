@@ -15,6 +15,7 @@ module.exports = {
             required: true
         }
     ],
+    prod: true,
     // deleted: true,
     permissionsRequired: [PermissionFlagsBits.Administrator],
     callback: async (client, interaction) => {

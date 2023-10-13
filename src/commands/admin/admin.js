@@ -52,5 +52,6 @@ const { antiDms } = require('../../checks/messageChecks');
         }
     ],
     name: 'admin',
-    description: "secret"
+    description: "secret",
+    prod: true,
   };

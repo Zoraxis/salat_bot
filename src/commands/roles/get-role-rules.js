@@ -7,6 +7,7 @@ const getRoleRules = require('../../utils/getRoleRules');
 module.exports = {
     name: 'get-role-rules',
     description: 'смотрим шо есть в арсенале',
+    prod: true,
     // deleted: true,
     permissionsRequired: [PermissionFlagsBits.Administrator],
     /**

@@ -99,4 +99,5 @@ module.exports = {
       type: ApplicationCommandOptionType.Mentionable,
     },
   ],
+  prod: true,
 };

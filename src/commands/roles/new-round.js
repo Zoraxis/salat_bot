@@ -5,6 +5,7 @@ const RoleRace = require('../../models/RoleRace');
 
 module.exports = {
     name: 'new-round',
+    prod: true,
     description: 'Начинаем новый сезон',
     // deleted: true,
     options: [

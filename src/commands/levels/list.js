@@ -35,5 +35,6 @@ const { antiDms } = require('../../checks/messageChecks');
     permissionsRequired: [PermissionFlagsBits.Administrator],
   
     name: 'list',
-    description: "Доска салато-респектов"
+    description: "Доска салато-респектов",
+    prod: true,
   };

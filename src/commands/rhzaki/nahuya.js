@@ -34,4 +34,5 @@ module.exports = {
       type: ApplicationCommandOptionType.String,
     },
   ],
+  prod: false,
 };

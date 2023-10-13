@@ -9,6 +9,7 @@ const getRoleRules = require('../../utils/getRoleRules');
 module.exports = {
     name: 'role-rule',
     description: 'Движ авто-ролями',
+    prod: true,
     // deleted: true,  
     options: [{
             name: 'action',
